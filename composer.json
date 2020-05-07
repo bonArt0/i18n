@@ -1,0 +1,35 @@
+{
+    "name": "free-elephants/i18n",
+    "description": "Simple i18n library",
+    "type": "library",
+    "license": "BSD-2.0",
+    "authors": [
+        {
+            "name": "samizdam",
+            "email": "samizdam@inbox.ru"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FreeElephants\\": [
+                "src/FreeElephants"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FreeElephants\\": [
+                "tests/FreeElephants/"
+            ]
+        }
+    },
+  "config": {
+    "sort-packages": true
+  }
+}
