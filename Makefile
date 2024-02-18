@@ -7,5 +7,5 @@ install: build
 	composer install
 
 test:
-	vendor/bin/phpunit
+	php -d xdebug.mode=coverage vendor/bin/phpunit
 
